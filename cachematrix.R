@@ -18,7 +18,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getInv = getInv)
 }
 
-}
 
 
 ## Write a short comment describing this function
