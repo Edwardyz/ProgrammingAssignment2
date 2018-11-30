@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The two functions below are designed to create a matrix and then find its inverse either from cache or real-time calculation. 
 
-## Write a short comment describing this function
+
+## the function creates a list of functions to set or get the matrix under examine and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         vec_inv <- NULL
@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## the function finds a matrix's inverse by first checking if the inverse is already computed and stored, 
+## if not it will calculate it using solve function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
